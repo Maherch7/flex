@@ -165,11 +165,12 @@ width: 1000px;
 padding-left: 241px;
 }
 
-.towns{display: flex;
-justify-content: space-between;
-width: 20%;
-padding: 5px;
-text-decoration: none;
+.towns{    display: flex;
+  justify-content: space-between;
+  width: 97%;
+  padding: 9px;
+  text-decoration: none;
+  height: 34px;
 }
 
 .ab{border: 5px;
@@ -220,58 +221,62 @@ float: left;
 padding-right: 1em;
 color: #00b39b;}
 
-.leader{    background: #fff;
+.leader{      background: #fff;
   border-radius: 5px;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   height: 250px;
   text-align: center;
-  padding: 15px;
+  padding: 24px;
   font-size: .8125em;
-  width: 22%;
+  /* width: 22%; */
   display: table;
+  width: 230px;
+  height: 250px;
   }
 
   #lead{font-size: 1.8461538462em;
     color: #00b39b;
     margin: 0.5em 0;}
 
-.app{background: #fff;
+.app{      background: #fff;
   border-radius: 5px;
   box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
   height: 250px;
   text-align: center;
-  padding: 15px;
+  padding: 17px;
   font-size: .8125em;
-  width: 22%;
-display: table;}  
+  /* width: 22%; */
+  display: table;
+  width: 230px;
+  height: 250px;}  
 
 #ap{font-size: 1.8461538462em;
   color: #00b39b;
   margin: 0.5em 0;}
 
-  .patient{background: #fff;
+  .patient{    background: #fff;
     border-radius: 5px;
     box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
     height: 250px;
     text-align: center;
     padding: 15px;
     font-size: .8125em;
-    width: 22%;
-  display: table;}
+    width: 251px;
+    display: table;}
 
   #pat{font-size: 1.8461538462em;
     color: #00b39b;
     margin: 0.5em 0;}
 
-    .doctors{background: #fff;
+    .doctors{    background: #fff;
       border-radius: 5px;
       box-shadow: 0 1px 4px 0 rgba(0,0,0,.05);
       height: 250px;
       text-align: center;
       padding: 15px;
       font-size: .8125em;
-      width: 22%;
-    display: table;}
+      width: 230px;
+      display: table;}
 
     #doc{font-size: 1.8461538462em;
       color: #00b39b;
@@ -280,7 +285,9 @@ display: table;}
   .stats{display: flex;
     flex-wrap: wrap;
     width: 856px;
-    justify-content: normal;}
+    
+    justify-content: space-evenly;
+    flex-direction: row;}
 
   #before{content: "";
   position: absolute;
@@ -330,3 +337,15 @@ fill: #747474;}
 
 
 #bog{width: 316px;}
+
+.Warsaw{border-radius: 10px;
+overflow: hidden;}
+
+.Barcelona{border-radius: 10px;
+  overflow: hidden;}
+
+.Munich{border-radius: 10px;
+  overflow: hidden;}
+
+.pics{text-decoration: none;
+color: #747474;}  
